@@ -1,0 +1,15 @@
+<form method="GET" action="/" class = "searchform">
+		Semester: <input type="text" name="semester">
+		Year: <input type="text" name="year">
+		Professor: <input type="text" name="prof">
+		<input type="submit" value="filter">	
+</form>
+
+<br>
+
+{{#each review as |r|}}
+<div> {{r.courseNumber}} - {{r.courseName}} - {{r.semester}} - {{r.year}} - {{r.professor}}- {{r.review}}  </div>
+{{/each}}
+
+
+<h2>Your session's total page visited: {{count}}</h2>

@@ -1,0 +1,58 @@
+body{
+	background-color: white;
+}
+
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial; 
+
+}
+
+h2{
+	padding-left: 35px;
+	font-weight: bold;
+	font-family: Arial; 
+
+}
+
+.logo{
+	width:5%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.mylink{
+	text-align: center;
+  	margin: 0;
+  	padding: 0;
+}
+
+.mylink li{
+	display:inline;
+	width: 300px;
+  	height: 50px;
+  	padding: 5px;
+  	border: 1px solid black;
+
+}
+
+a:link{
+	color:black;
+  	text-decoration: none;
+}
+
+a:visited{
+	color:black;
+  	text-decoration: none;
+}
+
+.tb{
+	font-family:Arial;
+	line-height: 1.4em;
+}
+
+.tb li{
+	list-style-type:none;
+}

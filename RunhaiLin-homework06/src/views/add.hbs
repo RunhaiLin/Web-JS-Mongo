@@ -1,0 +1,25 @@
+<br>
+<h2>Add New Review</h2>
+
+<form method="POST" action="/reviews/add">
+		Course Number: <input type="text" name="coursenumber">
+		<br>
+		Course Name: <input type="text" name="coursename">
+		<br>
+		Semester: <input type="text" name="semester">
+		<br>
+		Year: <input type="text" name="year">
+		<br>
+		Professor: <input type="text" name="prof">
+		<br>
+
+		Review: 
+		<br>
+		<br>
+		<textarea type="text" rows = "5" cols = "50" name="review"></textarea>
+		<br>
+		<br>
+		<input type="submit" value="Submit">
+</form>
+
+<h2>Your session's total page visited: {{count}}</h2>

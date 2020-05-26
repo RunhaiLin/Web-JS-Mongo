@@ -1,0 +1,27 @@
+{
+  "images":  [
+  {
+    "name": "docker-containers",
+    "url": "https://www.docker.com/sites/default/files/social/docker_facebook_share.png"
+  },
+  {
+    "name": "github",
+    "url": "https://techcrunch.com/wp-content/uploads/2010/07/github-logo.png?w=512"
+  },
+  {
+    "name": "kubernetes-containers",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png"
+  },
+  {
+    "name": "msft-github",
+    "url": "https://github.blog/wp-content/uploads/2018/06/40890924-4bad5ce0-6732-11e8-9648-192aa71f0830.png?fit=2405%2C1265"
+  },
+  {
+    "name": "node-nodejs",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
+  },
+  {
+    "name": "react",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+  }
+]}

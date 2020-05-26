@@ -1,0 +1,136 @@
+body {
+	background-image:url(https://w.wallhaven.cc/full/45/wallhaven-452wg9.jpg);
+}
+
+.start{
+	background-color: #D3D3D3;
+	opacity: 80%;
+	display: block;
+	width:50%;
+	height:200px;
+	margin-top: 20%; 
+	margin-left: 25%;
+	border-radius:25px;
+	padding-top: 50px;
+	padding-left:50px;
+	font-size: 200%;
+	font-family: "Times New Roman";
+
+}
+
+#startValues{
+	font-size: 150%;
+	font-family: "Times New Roman";
+}
+
+.playBtn{
+	background-color: #3d3d3d;
+	color: white;
+	font-size: 125%;
+	border-radius:25px;
+	font-family: 'Arial';
+}
+
+.count {
+	background-color: #D3D3D3;
+	opacity: 80%;
+	display: block;
+	width:40%;
+	height:30px;
+	position: relative;
+	margin-left: 30%;
+	margin-top:25px;
+	margin-bottom: :25px;
+	padding-top: 10px;
+	border-radius:25px;
+	font-size: 150%;
+	font-family: "Georgia";
+	text-align: center;
+
+}
+
+.showing {
+	background-color: #D3D3D3;
+
+	display: block;
+	width:80%;
+	height:300px;
+	position: relative;
+	margin-left: 10%;
+	margin-top:25px;
+	margin-bottom: :25px;
+	padding-top: 25px;
+	border-radius:25px;
+	font-size: 150%;
+	font-family: "Georgia";
+	text-align: center;
+
+}
+
+.button{
+	background-color: #4db8ff;
+	display: inline-block;
+	width:10%;
+	height: 30px;
+	position: relative;
+	color: white;
+	font-size: 150%;
+	border-radius:25px;
+	font-family: 'Arial';
+	margin-left: 25%;
+	margin-right: 5%;
+	margin-top:25px;
+	margin-bottom: :25px;
+}
+
+.cgd{
+	background-color: #ffdd99;
+	opacity: 80%;
+	display: block;
+	width:40%;
+	height:30px;
+	position: relative;
+	margin-left: 30%;
+	margin-top:25px;
+	margin-bottom: :25px;
+	padding-top: 10px;
+	border-radius:25px;
+	font-size: 150%;
+	font-family: "Georgia";
+	text-align: center;
+}
+
+.card{
+	background-color:white;
+	display: inline-block;
+	height:250px;
+	width:150px;
+	border-width:3px;
+	border-color: black;
+	margin: 10px 10px;
+}
+
+.unknowncard{
+	background-color:white;
+	display: inline-block;
+	height:250px;
+	width:150px;
+	border-width:3px;
+	border-color: black;
+	margin: 10px 10px;
+}
+
+.card:hover {
+  background-color: #ffffb3;
+}
+
+.num{
+	font-size: 100%;
+	margin: 10px 10px;
+	text-align: left;
+}
+
+.shape{
+	font-size: 200%;
+	margin-top: 40%;
+}

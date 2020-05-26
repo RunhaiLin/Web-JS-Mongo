@@ -1,0 +1,10 @@
+{
+  "transactions":  [
+    {
+      "id": 0,
+      "timestamp": "2020-01-01T00:00:00",
+      "from": "admin",
+      "to": "account-1",
+      "amount": 1000000
+    }
+  ]}

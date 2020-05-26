@@ -1,0 +1,20 @@
+
+<link rel = "stylesheet" href="/css/main.css">
+<br>
+<ul class="tb">
+{{#each tb as |b|}}
+	<li>block-name: <strong>{{b.name}}</strong>  </li>
+	<li>previous: <strong>{{b.prev}}</strong></li>
+	<br>
+	<li>[transactions]</li>
+	<br>
+	<br>
+	{{#each b.transaction as |t|}}
+	<li> { &nbsp id: &nbsp {{t.id}}, &nbsp timestamp: &nbsp {{t.timestamp}}, &nbsp amount: &nbsp {{t.amount}} }</li>
+	<li> <strong>@{{t.from}} &nbsp → &nbsp @{{t.to}}</strong></li>
+	<br>
+
+	{{/each}}
+	<hr></hr>
+{{/each}}
+</ul>

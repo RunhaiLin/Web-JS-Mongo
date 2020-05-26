@@ -1,0 +1,10 @@
+{
+ 
+  "playerLetter": "X",
+  "InitializedWidth": 4,
+  "scriptedMoves": {
+     "player": ["A2", "D3"],
+     "computer": ["C1", "A3"]
+ }
+  
+}

@@ -1,0 +1,29 @@
+{
+  "name": "runhailin-final-project",
+  "version": "1.0.0",
+  "description": "## Overview",
+  "main": "app.js",
+  "scripts": {
+    "build": "postcss public/css/tailwind.css -o public/css/base.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-008-spring-2020/RunhaiLin-final-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-008-spring-2020/RunhaiLin-final-project/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-008-spring-2020/RunhaiLin-final-project#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "bcrypt": "^4.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "hbs": "^4.1.0",
+    "mongoose": "^5.9.7",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.3.5"
+  }
+}

@@ -1,0 +1,60 @@
+<script src="/js/newteam.js"></script>
+
+<div class = " mb-4 text-4xl font-serif mx-4 my-8 text-gray-800">
+		<p>Hello! {{username}}</p>
+</div>
+
+
+
+<div class = "mb-4 text-2xl font-bold mx-4 my-8 text-indigo-500"> 
+	<a href = "/home" class="no-underline pr-8 hover:text-indigo-800"> Back to Home</a>
+	<a href = "/myteam" class="no-underline pr-8 hover:text-indigo-800">Back to My Team</a>
+</div>
+
+
+
+
+<form method = "POST" action = "/addmyteam" id = "teamform" class = "w-full">
+
+	<div class = "md:flex mx-4 my-8 ">
+
+		<div class="md:w-1/8 ">
+		<label class="text-gray-800 text-left font-bold mb-4 pr-4">
+			Team Name:
+		</label>
+		</div>
+
+		<div class = "md:w-1/4">
+			<input class = " w-5/6  shadow appearance-none border rounded py-2 px-4 text-gray-700 leading-tight" type = "text" name = "teamname">
+		</div>	
+	</div>
+
+    <div class = "mx-4 my-32 bg-blue-200" >
+	<ul>
+
+		{{#each monsterarr as |m|}}
+        <label for=|m|.monstername>
+            <div class = 'w-1/12 md:inline-flex mx-4 my-4 px-2 py-2 border-solid  border-4 border-gray-500 '>	
+            <li> 	
+                 <input type = "checkbox" name = "teamcheckbox" id = "monstercheckbox" value={{m._id}}>
+                 <label for = {{m.monstername}}>
+                    <div>
+                        <img class = " object-center " src = {{m.img}} alt = {{m.monstername}}>
+                        <p class = " text-base text-center font-bold">{{m.monstername}}</p>
+                        <p class = " text-sm text-center font-sans italic">{{m.type}}</p>
+                    </div> 
+
+                 </label>
+                 
+            </li> 	
+            </div>	
+		</label>
+		{{/each}}
+		
+       
+	</ul>
+
+    <div class=" inline-box flex  my-4 items-center ">
+				<button class=" w-1/2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded " id = "newteamsubmit" type = "submit" name= "newteamsubmit" value = "Submit">Add a team</button>
+
+	</div>

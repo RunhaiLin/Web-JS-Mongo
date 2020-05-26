@@ -1,0 +1,33 @@
+{
+	"monster_arr":["Dilan","Heros","Rao","Fila","SmileFlower","Pluto","Root","Kiro",
+"Guth","Octopus","Shark","Aka","Yuni","Yanfo","Hawk","Redpig",
+"Seahorse","QQ","Tony","Tomo","Abao","Newton","Mai","BoxingMonkey","MoonRabbit","Gocit","Wan","SandChicken",
+"Du","Wuda","FireCat","Pilot","Mogo","SandCrane","Sandhead","Scorpions","Pigger","WindYite","EleYite","IceYite",
+"DarkYite","LightYite","FlyYite","SandYite","BugYite","FightYite","GroundYite","DragonYite","MythYite","SpeYite","WaterYite",
+"Akawaiter","Shagiter","Bengbeng","Drunk","Mummy","Seal","Turtle","Yino","Princess","Poly","Fireseal","Daguan","Lupohaly","Doly",
+"Sijet","Hemit","ChristmasDeer","Dujiao","Bato","QBee","Zyele","Fiyas","FireDragon","Spring","Griffet","Littledemon","KQQ","Atman",
+"Black","White","Mika","Nilu","Sabort","Hedgehog","Coffin","Fiddle","Nokibo","Catherine","Kaliport","Cloud","Timebird","SBee",
+"Fula","Reginald","FlyFish","Mushroom","Gargoyle","Ace","Crow","Nepoteng","Ailu","Mr.Pig","Queen","James","Mino","Papamila","Selan",
+"Kara","Hitter","Mumuking","Wulang","Paladin","Limu","Typhoon","Mail","Smoke","MagicDragon","Cnm","Dices","Twist","Pencil","Erasor",
+"Pea","IceFox","Pumpkin","WaterCrane","FireCrane","GrassCrane","Druid","Iceman","WaterDragon","Tx","She","Mox","Sp","Sy","By","Jn",
+"Sz","Jx","Xn","Tp","Lust","Gluttony","Greed","Sloth","Wrath","Envy","Alice","Bear","LionDance","Qilin","Sulf","IceMagus","IceSnake",
+"ElectrDragon","Tiger","Goldfish","Nicolas","ExIceFox","ExZyele","Hotpot","Leopard","Mocking","Demon","Sathelon","WindDragon",
+"BlackRabbit","PurpleRabbit","SandDragon","Audrey","WaterElement","FightMonkey","Zongzi","FireElement","Hepburn","Ladybird","Xuan",
+"GrassElement","Yomiya","Semiya","Fireworks","Timpson","Yumin","Hetong","Balu","Bigeye","Fur"],
+
+	"type_arr":["water","fire","grass","normal","grass","normal","grass","water",
+"grass","water","water","water","fire","fire","fire","fire",
+"water","normal","normal","normal","normal","ground","grass","normal","magic","ground","normal",
+"sand","normal","water","fire","flying","ground","sand","sand","ground","magic","wind","electric","ice",
+"dark","light","flying","sand","bug","fight","ground","dragon","myth","special","water","ground","ground",
+"sand","normal","magic","ice","ice","ice","ice","ice","fire","fight","sand","ice","water","flying","flying",
+"bug","electric","bug","electric","flying","dragon","normal","flying","dark","normal","fight","fight","fight",
+"light","dark","flying","ground","sand","grass","flying","fire","flying","flying","flying","bug","grass","normal",
+"water","grass","flying","light","flying","water","ground","magic","ice","ice","ice","normal","flying","dark","wind",
+"water","fight","light","grass","wind","light","wind","dragon","normal","magic","wind","normal","normal","grass","ice",
+"dark","water","fire","grass","grass","ice","dragon","bug","flying","fight","ice","water","grass","ground","magic","dark",
+"myth","light","dark","magic","dark","dark","magic","dark","water","normal","fire","electric","fire","ice","ice","dragon",
+"fight","water","dark","ice","electric","fire","fight","flying","dark","flying","dragon","magic","magic","dragon","myth",
+"water","fight","grass","fire","myth","bug","magic","grass","light","magic","fire","magic","dark","water","grass","myth","fight"
+]
+}

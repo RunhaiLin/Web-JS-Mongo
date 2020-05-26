@@ -1,0 +1,39 @@
+<div class = " mb-4 text-4xl font-serif mx-4 my-8 text-gray-800">
+		<p>Hello! {{username}}</p>
+</div>
+
+<div class = "mb-4 text-2xl font-bold mx-4 my-8 text-indigo-500"> 
+	<a href = "/home" class="no-underline pr-8 hover:text-indigo-800"> Back to Home</a>
+	<a href = "/addmyteam" class="no-underline pr-8 hover:text-indigo-800"> Add new team</a>
+</div>
+
+<div class = " mb-4 text-2xl font-serif mx-4 my-4 text-gray-700">
+		<p>My Teams</p>
+</div>
+
+<div class = "w-full " >
+	<div class = "mx-4 mb-4 my-32 bg-blue-200" >
+	<ul>
+	
+    {{#each teamarr as |t| }}
+    <div class = " mb-2 text-2xl font-serif  text-gray-700">
+		<p>{{t.teamname}}</p>
+    </div class = "mb-2">
+    	<ul>
+		{{#each t.monsters as |m|}}
+		
+		<div class = 'w-1/12 md:inline-flex mx-4 my-4 px-2 py-2 border-solid  border-4 border-gray-500 '>	
+		<li> 	
+				<img class = " object-center " src = {{m.img}} alt = {{m.monstername}}>
+				<p class = " text-base text-center font-bold">{{m.monstername}}</p>
+				<p class = " text-sm text-center font-sans italic">{{m.type}}</p>
+				
+		</li> 	
+		</div>	
+		
+		{{/each}}
+    </ul>
+    {{/each}}	
+	</ul>
+	</div>
+</div>

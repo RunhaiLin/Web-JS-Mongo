@@ -1,0 +1,25 @@
+<div class = "container mx-auto my-32 flex justify-center items-center">
+		<form method = "POST" action = "/newaccount" class = "w-1/3 bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 " >
+		<div class="mb-4">
+			<label class="block text-gray-700 text-sm font-bold mb-2" for="setusername">
+        		Set my User Name:
+      		</label>
+			<input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight" type = "text" name = "newusn">
+		</div>
+
+		<div class ="mb-4">
+			<label class="block text-gray-700 text-sm font-bold mb-2" for="setpassword">
+        		Set my Password:
+      		</label>
+			<input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight" type = "text" name = "newpwd">
+		</div>
+
+			<div class="flex items-center justify-between">
+				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type = "submit" name= "Register" value = "Register">Register</button>
+			</div>	
+	</form>
+</div>
+
+<div class="text-center">
+	<p class="text-gray-800 text-sm"> Password should be longer than 4 characters.</p>
+</div>

@@ -1,0 +1,33 @@
+<div class = " mb-4 text-4xl font-serif mx-4 my-8 text-gray-800">
+		<p>Hello! {{username}}</p>
+</div>
+
+<div class = "mb-4 text-2xl font-bold mx-4 my-8 text-indigo-500"> 
+	<a href = "/home" class="no-underline pr-8 hover:text-indigo-800"> Back to Home</a>
+	<a href = "/addmymonster" class="no-underline pr-8 hover:text-indigo-800"> Add new Monster</a>
+</div>
+
+<div class = " mb-4 text-2xl font-serif mx-4 my-4 text-gray-700">
+		<p>My Monsters</p>
+</div>
+
+<div class = "w-full " >
+	<div class = "mx-4 my-32 bg-blue-200" >
+	<ul>
+		
+		{{#each monsterarr as |m|}}
+		
+		<div class = 'w-1/12 md:inline-flex mx-4 my-4 px-2 py-2 border-solid  border-4 border-gray-500 '>	
+		<li> 	
+				<img class = " object-center " src = {{m.img}} alt = {{m.monstername}}>
+				<p class = " text-base text-center font-bold">{{m.monstername}}</p>
+				<p class = " text-sm text-center font-sans italic">{{m.type}}</p>
+				
+		</li> 	
+		</div>	
+		
+		{{/each}}
+		
+	</ul>
+	</div>
+</div>
